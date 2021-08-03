@@ -1,0 +1,129 @@
+*{
+    box-sizing:border-box;
+}
+h1{
+    text-align:center;
+    margin:10px;
+    padding:10px;
+    color:blue;
+}
+.title1{
+    display:block;
+    position:relative;
+    border:1px solid black;
+    background-color:rgb(37, 92, 163);
+    text-align:right;
+    float:right;
+    width:100px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:5px;
+    color:white;
+}
+.title2{
+    display:block;
+    position:relative;
+    border:1px solid black;
+    background-color:rgb(255, 0, 0);
+    text-align:right;
+    float:right;
+    width:100px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:5px;
+    color:white;
+}
+.title3{
+    display:block;
+    position:relative;
+    border:1px solid black;
+    background-color:rgb(14, 139, 3);
+    text-align:right;
+    float:right;
+    width:100px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:5px;
+    color:white;
+}
+.content{
+    display:block;
+    padding:5px 5px 5px 5px;
+    clear:both;
+    box-sizing:border-box;
+    margin:3px;
+}
+div section {
+    border:1px solid rgb(0, 0, 0);
+    width:100%;
+    height:200px;
+    background-color:lawngreen;
+    
+  
+}
+@media (min-width:992px) {
+    #r1, #r2, #r3{
+        width:32%;
+        float:left;
+    }
+    #r1{
+        
+        height:240px;
+        margin:5px;
+        background-color:rgb(14, 139, 3);
+    }
+    #r2{
+        
+        height:240px;
+        margin:5px;
+    }
+    #r3{
+        height:240px;
+        margin:5px;
+        background-color:rgb(41, 159, 180);
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #r1, #r2, #r3 {
+        float:left;
+        width:49%;
+        margin-bottom:5px;
+        box-sizing: border-box;
+    }
+    #r1{
+        height:200px;
+        margin-right:1px;
+        background-color:rgb(14, 139, 3);
+    }
+    #r2{
+        height:200px;
+        float:right;
+    }
+    #r3{
+        width:100%;
+        height:200px;
+        box-sizing: border-box;
+        clear:left;
+        background-color:rgb(41, 159, 180);
+    }
+}
+@media (max-width:767px){
+    #r1, #r2, #r3{
+        float:left;
+        width:100%;
+    }
+    #r1{
+        height:200px;
+        margin:5px;
+        background-color:rgb(14, 139, 3);
+    }
+    #r2{
+        height:200px;
+        margin:5px;
+    }
+    #r3{
+        height:200px;
+        margin:5px;
+        background-color:rgb(41, 159, 180);
+    }
+}
