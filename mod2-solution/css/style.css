@@ -67,16 +67,16 @@ div section {
         float:left;
     }
     #r1{
-        height:240px;
+        height:220px;
         margin:5px;
         background-color:rgb(14, 139, 3);
     }
     #r2{
-        height:240px;
+        height:220px;
         margin:5px;
     }
     #r3{
-        height:240px;
+        height:220px;
         margin:5px;
         background-color:rgb(41, 159, 180);
     }
@@ -90,16 +90,16 @@ div section {
         
     }
     #r1{ 
-        height:240px;
+        height:220px;
         margin-right:1px;
         background-color:rgb(14, 139, 3);
     }
     #r2{
-        height:240px;
+        height:220px;
         float:right;
     }
     #r3{
-        height:240px;
+        height:220px;
         width:100%;
         box-sizing: border-box;
         clear:left;
@@ -113,16 +113,16 @@ div section {
         font-size:90%;
     }
     #r1{
-        height:240px;
+        height:220px;
         margin:5px;
         background-color:rgb(14, 139, 3);
     }
     #r2{
-        height:240px;
+        height:220px;
         margin:5px;
     }
     #r3{
-        height:240px;
+        height:220px;
         margin:5px;
         background-color:rgb(41, 159, 180);
     }
