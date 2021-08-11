@@ -12,7 +12,7 @@
 
 @media(min-width:768px) and (max-width:991px) {
         .navbar-nav,.navbar-toggler {
-            visibility: hidden;
+            visibility: visible;
         }
         .container{
             width:100%;
@@ -72,4 +72,11 @@
     }
     .nav-link{
         color:white;
+    }
+    .container{
+        height:800px;
+    }
+    .end{
+        position:relative;
+        text-align-last:auto;
     }
