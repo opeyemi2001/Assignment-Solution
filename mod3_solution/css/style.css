@@ -12,7 +12,7 @@
 
 @media(min-width:768px) and (max-width:991px) {
         .navbar-nav,.navbar-toggler {
-            visibility: visible;
+            visibility: hidden;
         }
         li.nav-items{
             text-align: center;
