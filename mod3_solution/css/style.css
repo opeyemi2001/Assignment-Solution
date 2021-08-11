@@ -14,6 +14,15 @@
         .navbar-nav,.navbar-toggler {
             visibility: visible;
         }
+        li.nav-items{
+            text-align: center;
+            border:1px solid black;
+            background-color: rgb(143, 113, 224);
+            margin:0px;
+            padding: 0px;
+            color:white;
+            width:100%;
+        }
         .container{
             width:100%;
         }
